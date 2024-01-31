@@ -28,7 +28,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "Hello, Japan!"
+          command: echo "Hello, Japan!"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
